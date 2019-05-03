@@ -10,19 +10,19 @@ $countDays = 1;
 
 echo "<pre>";
 
-$daysBetweenTwoDates = DateHelper::dateRange($startDate, $endDate);
-print_r($daysBetweenTwoDates);
+$dateRange = DateHelper::dateRange($startDate, $endDate);
+print_r($dateRange);
 
 $nextDay = DateHelper::nextDay($startDate, $countDays);
 print_r($nextDay);
 
-$previousDay = DateHelper::prevDay($startDate, $countDays);
-print_r($previousDay);
+$prevDay = DateHelper::prevDay($startDate, $countDays);
+print_r($prevDay);
 
 $nextDays = DateHelper::nextDays($startDate, $countDays);
 print_r($nextDays);
 
-$previousDays = DateHelper::prevDays($startDate, $countDays);
-print_r($previousDays);
+$prevDays = DateHelper::prevDays($startDate, $countDays);
+print_r($prevDays);
 
 echo "</pre>";
