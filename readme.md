@@ -4,6 +4,7 @@ A simple PHP helper library for DateTime.
 
 ```php
 use RizaErgun\DateHelper\DateHelper;
+
 require 'vendor/autoload.php';
 
 $startDate = new DateTime('2019-05-03');

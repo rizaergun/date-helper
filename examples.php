@@ -4,7 +4,6 @@ use RizaErgun\DateHelper\DateHelper;
 
 require 'vendor/autoload.php';
 
-
 $startDate = new DateTime('2019-05-03');
 $endDate = new DateTime('2019-05-04');
 $countDays = 1;
