@@ -1,0 +1,38 @@
+{
+    "name": "rizaergun/date-helper",
+    "type": "library",
+    "description": "A simple PHP helper library for DateTime",
+    "keywords": [
+        "date",
+        "time",
+        "DateTime",
+        "helper",
+        "library",
+        "between",
+        "two",
+        "next",
+        "previous"
+    ],
+    "support": {
+        "issues": "https://github.com/rizaergun/date-helper/issues",
+        "source": "https://github.com/rizaergun/date-helper"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riza ERGUN",
+            "email": "re@rizaergun.com",
+            "homepage": "http://www.rizaergun.com",
+            "role": "Web Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RizaErgun\\DateHelper\\": "src/"
+        }
+    }
+}
